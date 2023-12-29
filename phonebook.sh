@@ -60,7 +60,7 @@ delcontact(){
 }
 
 addtocontactlist(){
-echo Please enter contact details
+echo Please enter the contacts First name, Last name and phone number with each separated by a single spaces.
 read CONTACT_DETAILS
 #if phonebook.txt exists add the entered detail into phonebook.txt
 if [ -e phonebook.txt ]; then
